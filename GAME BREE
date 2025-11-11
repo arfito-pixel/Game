@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pengaruh Game terhadap Kreativitas & Inovasi</title>
+  <style>
+    :root{
+      --bg:#f4f7fb; --card:#ffffff; --accent:#11866f; --muted:#55606a;
+      --glass: rgba(17,134,111,0.08);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
+      background:linear-gradient(180deg,#eaf6f0 0%,#f4f7fb 100%);color:#0b1220;
+      -webkit-font-smoothing:antialiased;
+    }
+    .wrap{max-width:1000px;margin:36px auto;padding:20px}
+    header{display:flex;align-items:center;gap:16px}
+    .logo{width:64px;height:64px;border-radius:12px;background:var(--accent);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;box-shadow:0 6px 18px rgba(17,134,111,0.12)}
+    h1{margin:0;font-size:1.6rem}
+    p.lead{margin:4px 0 0;color:var(--muted)}
+    nav{margin-top:18px;display:flex;gap:8px;flex-wrap:wrap}
+    nav button{background:transparent;border:1px solid rgba(11,18,32,0.06);padding:8px 12px;border-radius:10px;cursor:pointer}
+    .grid{display:grid;grid-template-columns:1fr 300px;gap:18px;margin-top:18px}
+    main{background:var(--card);padding:20px;border-radius:12px;box-shadow:0 8px 30px rgba(2,6,23,0.04)}
+    aside{background:linear-gradient(180deg,var(--glass),transparent);padding:18px;border-radius:12px;height:fit-content}
+    section{margin-bottom:18px}
+    h2{margin:0 0 8px;font-size:1.05rem;color:var(--accent)}
+    .meta{color:var(--muted);font-size:0.95rem;margin-bottom:10px}
+    ul{margin:8px 0 0 18px}
+    .card{background:#fff;padding:12px;border-radius:10px;box-shadow:0 4px 18px rgba(2,6,23,0.04);margin-bottom:10px}
+    .toggle{display:flex;gap:8px;margin-top:8px}
+    .btn{padding:8px 10px;border-radius:8px;border:none;background:var(--accent);color:#fff;cursor:pointer}
+    .btn.secondary{background:#6c757d}
+    .example{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;background:#f6fbfb;padding:8px;border-radius:8px;margin-top:8px}
+    footer{margin-top:18px;color:var(--muted);font-size:0.9rem;text-align:center}
+    @media(max-width:880px){.grid{grid-template-columns:1fr;}.aside{order:2}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">G</div>
+      <div>
+        <h1>Pengaruh Game terhadap Kreativitas & Inovasi</h1>
+        <p class="lead">Ringkasan singkat, manfaat, risiko, dan contoh praktis — untuk pelajar & guru.</p>
+      </div>
+    </header>
+
+    <nav>
+      <button onclick="scrollToId('influence')">Pengaruh</button>
+      <button onclick="scrollToId('positive')">Dampak Positif</button>
+      <button onclick="scrollToId('negative')">Dampak Negatif</button>
+      <button onclick="scrollToId('tips')">Tips Seimbang</button>
+    </nav>
+
+    <div class="grid">
+      <main>
+        <section id="influence">
+          <h2>1. Bagaimana Game Mempengaruhi Kreativitas & Inovasi</h2>
+          <p class="meta">Inti hubungan antara bermain game dan kemampuan berkreasi</p>
+          <p>
+            Game tidak selalu sekadar hiburan. Banyak jenis game (mis. sandbox, puzzle, simulasi, dan permainan strategi) mendorong pemain untuk berpikir kritis, bereksperimen, serta mencari solusi baru — proses yang juga mendasari kreativitas dan inovasi.
+            Secara ringkas, game mempengaruhi kreativitas & inovasi lewat:
+          </p>
+          <ul>
+            <li><strong>Eksperimen aman:</strong> pemain mencoba strategi baru tanpa konsekuensi nyata, memfasilitasi ide-ide orisinal.</li>
+            <li><strong>Simulasi masalah nyata:</strong> game simulasi atau puzzle mensimulasikan masalah yang butuh solusi kreatif.</li>
+            <li><strong>Kolaborasi & sharing:</strong> banyak game mendorong kerja tim dan berbagi teknik, yang memicu inovasi sosial dan teknis.</li>
+            <li><strong>Umpan balik cepat:</strong> hasil aksi segera terlihat, mempercepat proses belajar dan iterasi ide.</li>
+          </ul>
+        </section>
+
+        <section id="positive">
+          <h2>2. Dampak Positif</h2>
+          <p class="meta">Nilai-nilai yang bisa dikembangkan lewat game</p>
+          <div class="card">
+            <strong>Pengembangan keterampilan problem-solving</strong>
+            <p>Game puzzle dan strategi menyajikan masalah kompleks yang memerlukan analisis, perencanaan, dan improvisasi.</p>
+          </div>
+          <div class="card">
+            <strong>Kreativitas praktis</strong>
+            <p>Sandbox game (mis. permainan yang menyediakan alat untuk membangun) mendorong pemain merancang, menciptakan, dan memodifikasi objek — latihan langsung untuk berpikir inovatif.</p>
+          </div>
+          <div class="card">
+            <strong>Kolaborasi & inovasi sosial</strong>
+            <p>Team-based games mengajarkan koordinasi, pembagian peran, dan ide-ide kolaboratif yang dapat diterjemahkan ke proyek nyata.</p>
+          </div>
+          <div class="card">
+            <strong>Motivasi & persistence</strong>
+            <p>Sistem reward dan tantangan meningkatkan motivasi untuk terus mencoba sampai berhasil — sifat yang penting dalam proses inovasi.</p>
+          </div>
+
+          <div style="margin-top:12px">
+            <strong>Contoh nyata:</strong>
+            <div class="example" id="examplePositive">Klik tombol "Contoh Positif" di samping untuk melihat contoh aplikasi game dalam kreativitas.</div>
+            <div class="toggle">
+              <button class="btn" onclick="showExample('positive')">Contoh Positif</button>
+              <button class="btn secondary" onclick="clearExample()">Tutup</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="negative">
+          <h2>3. Dampak Negatif</h2>
+          <p class="meta">Risiko yang perlu diwaspadai</p>
+          <div class="card">
+            <strong>Kecanduan & gangguan waktu</strong>
+            <p>Waktu bermain yang berlebihan dapat mengurangi waktu untuk eksplorasi kreatif lain seperti membaca, praktik seni, atau projek nyata.</p>
+          </div>
+          <div class="card">
+            <strong>Pengurangan interaksi dunia nyata</strong>
+            <p>Jika interaksi sosial tergantikan oleh interaksi virtual, kesempatan belajar kolaborasi dalam konteks nyata dapat berkurang.</p>
+          </div>
+          <div class="card">
+            <strong>Konten yang sempit</strong>
+            <p>Game yang monoton atau berulang tanpa tantangan berpikir dapat menahan perkembangan kreativitas.</p>
+          </div>
+
+          <div style="margin-top:12px">
+            <strong>Contoh nyata:</strong>
+            <div class="example" id="exampleNegative">Klik tombol "Contoh Negatif" di samping untuk melihat contoh dampak buruk bila tidak diatur.</div>
+            <div class="toggle">
+              <button class="btn" onclick="showExample('negative')">Contoh Negatif</button>
+              <button class="btn secondary" onclick="clearExample()">Tutup</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="tips">
+          <h2>4. Tips Menjaga Pengaruh Positif & Mengurangi Risiko</h2>
+          <ul>
+            <li><strong>Batas waktu bermain:</strong> tetapkan jam bermain dan waktu istirahat agar aktivitas lain tetap terjaga.</li>
+            <li><strong>Pilih game yang edukatif:</strong> sandbox, puzzle, dan simulasi seringkali lebih memicu kreativitas dibanding game yang hanya repetitif.</li>
+            <li><strong>Gabungkan game dengan proyek nyata:</strong> ambil ide dari game—mis. desain kota di game—lalu coba buat mini-proyek di dunia nyata.</li>
+            <li><strong>Diskusi kritis:</strong> ajak teman atau guru berdiskusi tentang strategi & desain game untuk memunculkan ide inovatif baru.</li>
+            <li><strong>Variasi aktivitas:</strong> seimbangkan game dengan membaca, menggambar, coding, atau membuat prototipe sederhana.</li>
+          </ul>
+        </section>
+
+        <section id="summary">
+          <h2>Ringkasan</h2>
+          <p class="meta">Kesimpulan singkat</p>
+          <p>Game bisa menjadi alat yang kuat untuk melatih kreativitas dan mental inovator jika dipilih dan digunakan dengan bijak. Kuncinya adalah keseimbangan, jenis game, dan keterlibatan aktif (bukan pasif).</p>
+        </section>
+      </main>
+
+      <aside>
+        <h3>Ringkasan Cepat</h3>
+        <p class="meta">Ingat poin inti ini</p>
+        <ul>
+          <li>Game = ruang eksperimen & umpan balik cepat.</li>
+          <li>Pilih jenis game yang menantang berpikir dan berkreasi.</li>
+          <li>Atur waktu agar dampak negatif diminimalkan.</li>
+        </ul>
+
+        <div style="margin-top:12px">
+          <h4>Quick Actions</h4>
+          <button class="btn" onclick="scrollToId('positive')">Lihat Dampak Positif</button>
+          <button class="btn secondary" onclick="scrollToId('negative')">Lihat Dampak Negatif</button>
+        </div>
+
+        <div style="margin-top:14px">
+          <h4>Butuh contoh tugas?</h4>
+          <p class="meta">Gunakan game sebagai inspirasi tugas kreatif:</p>
+          <ul>
+            <li>Buat level game sederhana di kertas dan implementasikan aturan mainnya.</li>
+            <li>Desain konsep alat/produk terinspirasi dari game.</li>
+            <li>Buat presentasi tentang strategi inovatif dalam game populer.</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      Dibuat untuk belajar: evaluasi sendiri efeknya dan gunakan game untuk menjadi lebih kreatif — bukan sebaliknya.
+    </footer>
+  </div>
+
+  <script>
+    function scrollToId(id){
+      document.getElementById(id).scrollIntoView({behavior:'smooth', block:'start'});
+    }
+
+    function showExample(type){
+      const pos = document.getElementById('examplePositive');
+      const neg = document.getElementById('exampleNegative');
+      if(type==='positive'){
+        pos.innerHTML = "<strong>Contoh:</strong> Pemain membuat mod (modification) dalam game sandbox untuk membangun kota unik — lalu menerapkan konsep desain itu ke proyek model fisik atau presentasi desain urban.";
+        neg.innerHTML = "Klik <em>Contoh Negatif</em> untuk lihat risiko.";
+      } else {
+        neg.innerHTML = "<strong>Contoh:</strong> Seseorang yang menghabiskan waktu berjam-jam untuk grind (aktivitas berulang) di game kompetitif sampai lupa tugas sekolah, sehingga waktu belajar & eksplorasi kreatif lain berkurang.";
+        pos.innerHTML = "Klik <em>Contoh Positif</em> untuk lihat manfaat.";
+      }
+    }
+
+    function clearExample(){
+      document.getElementById('examplePositive').innerText = "Klik tombol \"Contoh Positif\" di samping untuk melihat contoh aplikasi game dalam kreativitas.";
+      document.getElementById('exampleNegative').innerText = "Klik tombol \"Contoh Negatif\" di samping untuk melihat contoh dampak buruk bila tidak diatur.";
+    }
+  </script>
+</body>
+</html>
